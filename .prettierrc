@@ -1,0 +1,10 @@
+{
+  "trailingComma": "none",
+  "eslintIntegration": false,
+  "semi": true,
+  "bracketSpacing": true,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "useTabs": false,
+  "vueIndentScriptAndStyle": true
+}
