@@ -3,17 +3,21 @@
     <v-main>
       <!-- Provides the application the proper gutter -->
       <v-container fluid style="height: 100%;">
-        <calendar></calendar>
+        <!-- <calendar></calendar> -->
+        <home></home>
       </v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
-export default {
-  name: 'App',
-  data: () => ({
-    drawer: true
-  })
-};
+  // import calendar from '@/components/calendar';
+  import home from '@/components/home';
+  export default {
+    name: 'App',
+    components: {
+      //   calendar,
+      home
+    }
+  };
 </script>
